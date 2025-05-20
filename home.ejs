@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=airline.css><style>@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+        :root {
+          --primarycolor: rgb(20, 204, 232);
+        }
+        
+        body {
+          margin: 1em;
+          font-family: "poppins";
+        }
+        
+        .hero-img {
+          background-image: url("https://images.pexels.com/photos/1687633/pexels-photo-1687633.jpeg");
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-size: cover;
+          background-position: 20%;
+          width: 100%;
+          height: 100vh;
+          overflow: hidden;
+          z-index: -1;
+        }
+        
+        .logo {
+          color: var(--primarycolor);
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: none;
+          font-size: 2em;
+        }
+        
+        .primary-nav {
+          display: flex;
+          justify-content: flex-end;
+          list-style-type: none;
+        }
+        .primary-nav a {
+          text-decoration: none;
+          color: black;
+          padding: 0.75em 2em;
+          display: block;
+          margin-top: 0px;
+          font-size: 20px;
+        }
+        .primary-nav a:hover {
+          background-color: rgb(19, 155, 218);
+          color: orange;
+          font-weight: bold;
+          border-radius: 15px;
+        }
+        
+        .hero {
+          margin-top: 8em;
+          font-size: 2em;
+        }
+        
+        .title {
+          font-weight: bold;
+          font-size: 3em;
+        }
+        
+        .feature {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          gap: 3em;
+          margin-bottom: 8em;
+        }
+        .feature img {
+          width: 25em;
+        }
+        .feature .content {
+          text-align: right;
+          width: auto;
+        }
+        
+        .feature.left {
+          grid-template-areas: "left right";
+        }
+        .feature.left img {
+          grid-area: left;
+        }
+        
+        .head {
+          margin-top: 5em;
+        }/*# sourceMappingURL=airline.css.map */
+        .send-cta {
+         background-color: #0078f0;
+         color: white;
+         font-weight: bold;
+         font-size: 1.3em;
+         border: none;
+        padding: 0.5em;
+        border-radius: 5em;
+        margin-bottom: 5em;
+        display: inline-block;
+        }
+        .form-contain {
+         border-radius: 5em;
+         background-color: white;
+         padding: 30px;
+         border-radius: 10px;
+         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+         margin: 40px auto;
+         max-width: 500px;
+
+}</style>
+</head>
+
+<body>
+
+    <body>
+        <div class=" hero-img"></div>
+        <div class="container">
+            <div class="navbar">
+                <div class="container">
+                    <p> <a href="# " class="logo">Global airlines</a></p>
+                    <nav>
+                        <ul class="primary-nav">
+                          <li><a href="/login ">Login</a></li>
+
+                    
+                      
+                            <li>
+                            <li><a href="# ">Home</a></li>
+                            <li>
+                                <a href="/airline">Airlines</a></li>
+                            <li><a href=" /r">Package</a></li>
+                            <li>
+                                <a href="/payment">Payment</a></li>
+
+                            </li>
+                            <li>
+                              <a href="/detail">Detail</a></li>
+
+                          </li>
+                            
+                        </ul>
+
+                    </nav>
+                </div>
+                <section class=" hero ">
+                    <h1>Discover new places</h1>
+                    <p class="subhead ">Book your tickets now--To discover new places</p>
+                </section><br><br>
+                <h1 class="head "> MANY PLACES TO VISIT</h1>
+                <section class="more-info ">
+                    <div class="feature ">
+                        <div class="content ">
+                            <p class="title ">FRANCE</p>
+                            <p class="desc ">France, officially French Republic, French France or République Française, country of northwestern Europe. Historically and culturally among the most important nations in the Western world, France has also played a highly significant role in international affairs, with former colonies in every corner of the globe. Bounded by the Atlantic Ocean and the Mediterranean Sea, the Alps and the Pyrenees, France has long provided a geographic, economic, and linguistic bridge joining northern and southern Europe. It is Europe’s most important agricultural producer and one of the world’s leading industrial powers.  France
+                              Eiffel Tower, Louvre Museum, Notre Dame, Arc de Triomphe, Musee d'Orsay, and Seine River are some of the top tourist attractions in Paris. Beautiful villages, picturesque vineyards, splendid chateaux, breath-taking scenery can be found in the Loire Valley</p>
+                        </div>
+                        <img src=" https://images.pexels.com/photos/2901215/pexels-photo-2901215.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 " alt="shoe pic ">
+                    </div>
+                    <div class="feature left ">
+                        <div class="content ">
+                            <p class="title ">AMERICA</p>
+                            <p class="desc "> United States of America, Washington DC and New York offer two entirely different experiences. Along the west coast of the country, Los Angeles and San Francisco are both hot favorites of tourists. In the southwest, the grand city of Las Vegas brings the desert to life, and the Grand Canyon showcases one of the greatest creations of nature. Beyond the mainland, the beaches of the Hawaiian Islands and Waikiki never fail to amaze their visitors. These are just a few of the wonderful destinations this country has to offer. Check out the full list of popular tourist places in America given below.</p>
+                        </div>
+                        <img src="https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="shoe pic ">
+                    </div>
+                    <div class="feature right ">
+                        <div class="content ">
+                            <p class="title ">EUROPE</p>
+                            <p class="desc ">Europe is a large peninsula conventionally considered a continent in its own right because of its great physical size and the weight of its history and traditions. Europe is also considered a subcontinent of Eurasia and it is located entirely in the Northern Hemisphere and mostly in the Eastern Hemisphere. Comprising the westernmost peninsulas of Eurasia,[11] it shares the continental landmass of Afro-Eurasia with both Africa and Asia. It is bordered by the Arctic Ocean to the north, the Atlantic Ocean to the west, the Mediterranean Sea to the south and Asia to the east. Europe is commonly considered to be separated from Asia by the watershed of the Ural Mountains, the Ural River, the Caspian Sea, the Greater Caucasus, the Black Sea and the waterways of the Turkish StraitsPlaces to visit in Europe include Denmark, Greenland, Estonia, Stockholm, Rome, Zurich, Poland, Vivey, Paris, and more. Explore!</p>
+                        </div>
+                        <img src="https://static.toiimg.com/photo/msid-87137761,width-96,height-65.cms" alt="shoe pic ">
+                    </div>
+                </section><div class="main">
+                <h2 class="form head">BOOK YOUR TICKET NOW, REGISTER HERE!!!!</h2>
+                <div class="form-contain"></div>
+                <form class="from-cta" action="/" method="post">
+                    <div>
+                        <label for="name"> NAME:</label>
+                        <input type="text" id="name" name="name" placeholder="enter your name" required>
+                    </div>
+                    <br>
+
+                    <div>
+                        <label for="city">CITY:</label>
+                        <input type="text" id="city" name="city" placeholder="enter your city" required>
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <label for="phone">MOBILE NUMBER:</label>
+                        <input type="mob" id="phone" name="phone" placeholder="enter the phoneno">
+                    </div>
+                    <br><div>
+                        <label for="phone">EMAIL:</label>
+                        <input type="mob" id="phone" name="email" placeholder="enter the email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="bdate">DOB:</label>
+                        <input type="date" id="bdate" name="bdate" placeholder='enter the dob'>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="quantity">PASSENGERS:</label>
+                        <input type="number" id="quantity" name="quantity" min="0" max="99" value="1">
+                    </div>
+                    <br>
+                    <div class="fromgroup ">
+                      <label for="gender">GENDER:</label>
+                      <select id="chooseairline" name ="gender">
+                                  <option value ="male">male</option>
+                                  <option value ="female">female</option>
+                                  <option value ="others">others</option>
+                      </select>
+                  </div>
+                    
+                   
+                    
+            </div>
+
+            <br>
+            <div>
+                <input type="reset">
+
+            </div><br>
+            <input type="submit" class="send-cta" value="book now ">
+
+                   
+                    </section>
+                </div>
+            </div>
+          </div>
+        </form>
+    </body>
+
+</html>

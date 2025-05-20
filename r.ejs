@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page3.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins";
+  background-image: url("/t.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 400px;
+  height: 500px;
+  background-color: rgba(51, 32, 32, 0.3);
+  box-shadow: 0 5px 40px black;
+  margin-top: 3em;
+}
+
+h2 {
+  color: rgb(3, 1, 0);
+  padding: 0.5em;
+}
+
+.fromgroup {
+  display: flex;
+  justify-content: center;
+  color: rgb(163, 167, 26);
+  border: none;
+  width: 100%;
+  padding: 20px;
+}
+
+.btn-home {
+  background-color: #000000;
+  color: rgb(238, 238, 238);
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  padding: 0.5em;
+  border-radius: 5em;
+  margin-bottom: 5em;
+  display: inline-block;
+  width: unset;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <h2>PLEASE CHOOSE A PACKAGE</h2>
+            <div class="heatag">
+            </div>
+            <form class="form" action="/r" method="post">
+               
+              <div class="fromgroup">
+                    <label for="planeno">PACKAGE ID:</label>
+                    <input type=" text " name="id" id="planeno " placeholder="" autoclomplete="off ">
+                </div>
+                <div class="fromgroup">
+                  <label for="planeno">PLANENO:</label>
+                  <input type=" number " name="number" id="planeno " placeholder="" autoclomplete="off ">
+              </div>
+                <div class="fromgroup">
+                    <label for="planeno">PACKAGE NAME:</label>
+                    <input type=" text " name ="packagename" id="planeno " placeholder=" " autoclomplete="off ">
+
+                </div>
+               
+                <div class="fromgroup">
+                  <label for="planeno">FROM:</label>
+                  <input type=" text " name ="from" id="planeno " placeholder="" autoclomplete="off ">
+
+              </div>
+              <div class="fromgroup">
+                  <label for="planeno">TO:</label>
+                  <input type=" text " name="to" id="planeno " placeholder="" autoclomplete="off ">
+
+              </div>
+                <div class="fromgroup ">
+                    <label for="cost">COST: </label>
+                    <select id="cost" name ="cost">
+                                <option value =15,000>15000</option>
+                                <option value =20,000>20,000</option>
+                                <option value =40,000>40,000</option>
+                                <option value =50,000>50,000</option>
+                            </select>
+                </div>
+
+                <div class="fromgroup ">
+                    <button onclick class="btn-home ">BOOK NOW</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
